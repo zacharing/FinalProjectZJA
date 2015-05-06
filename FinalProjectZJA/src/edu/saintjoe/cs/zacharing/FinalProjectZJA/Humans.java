@@ -8,14 +8,14 @@ public class Humans {
 	
 /*---------------------------------------------------*/
 	
-	public void FinalProject(String humanType, int humanWeight, int humanIqscore) {
+	public Humans(String humanType, int humanWeight, int humanIqscore) {
 		type = humanType;
 		weight = humanWeight;
 		iqscore = humanIqscore;
 	}
 	
 	public String toString() {
-		return "Human Type:" + type + "Weight:" + weight + "IQ Score:" + iqscore;
+		return "Human Type: " + type + " " + "Weight: " + weight + " " + "IQ Score: " + iqscore;
 	}
 	//Accessor
 	public String getType() {

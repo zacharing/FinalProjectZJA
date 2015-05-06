@@ -10,13 +10,13 @@ public class Mammals {
 	
 /*---------------------------------------------------*/
 	
-	public void FinalProject(String animalType, int animalWeight) {
+	public Mammals(String animalType, int animalWeight) {
 		type = animalType;
 		weight = animalWeight;
 	}
 	
 	public String toString() {
-		return "Mammal Type:" + type + "Weight:" + weight;
+		return "Mammal Type: " + type + " " + "Weight: " + weight;
 	}
 	//Accessor
 	public String getType() {
